@@ -1,0 +1,19 @@
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.83);
+}
+
+.cartItem img{
+    width: 100px;
+    object-fit: cover;
+}
+.addRemoveButton{
+    display: flex;
+    gap: 20px;
+}
